@@ -1,0 +1,22 @@
+/* === Color Palette === */
+/* Google Material Design Deep Purple - Dark: #311B92, Light: #D1C4E9*/
+
+body {
+	background-color: #D1C4E9;
+}
+
+.main-title {
+	color: #fff;
+	font-size: 25px;
+}
+
+.sidebar {
+	background-color: #311B92;
+	margin: 1%;
+	padding: 5%;
+	height: 100%;
+}
+
+.sidebar-title {
+	color: #fff;
+}
