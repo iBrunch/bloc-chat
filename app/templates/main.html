@@ -1,17 +1,17 @@
-
-<div class="sidebar col-sm-3">
-<section class="main-title">
-	<h1>BlocChat</h1>
-</section>
-
-	<div>
-		<p class="sidebar-title">Rooms</p>
-	</div>
-
-		<section>
-			<div ng-repeat="room in main.chatRooms">
-				<p>{{ room.name }}</p>
-			</div>
+<section>
+	<div class="sidebar col-sm-3">
+		<section class="main-title">
+			<h1>BlocChat</h1>
 		</section>
 
-</div>
+		<div>
+			<p class="sidebar-title">Rooms</p>
+		</div>
+
+		<section>
+			<div>
+				<p ng-repeat="room in rooms">{{ room.name }}</p>
+			</div>
+		</section>
+	</div>
+</section>

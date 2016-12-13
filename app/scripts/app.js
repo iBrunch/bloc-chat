@@ -11,14 +11,9 @@
                 url: '/',
                 controller: 'MainCtrl as main',
                 templateUrl: '/templates/main.html'
-            }) /*
-            .state('#', {
-                url: '/#',
-                controller: '#Ctrl as #',
-                templateUrl: '/templates/#.html'
-            })*/;
+            });
     }
     angular
-        .module('blocChat', ['ui.router', 'firebase'])
+        .module('blocChat', ['ui.router', 'firebase', 'firebase.ref', 'firebase.auth'])
         .config(config);
 })();
